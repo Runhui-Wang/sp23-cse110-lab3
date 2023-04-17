@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="screenshots\example.png" />
+    <title>Meeting Note</title>
+  </head>
+  <body>
+    <header>
+      <h1>Meeting 1 Note</h1>
+      <h2>Brainstorming</h2>
+      <h3>Date: April 16, 2023</h3>
+      <hr />
+      <h3>Attendance:</h3>
+      <ul>
+        <li>Hanson Wang</li>
+      </ul>
+      <p>An <b>interesting</b> meeting</p>
+      <nav>
+        <a href="#topics">Topics</a>
+        <a href="#media">Media</a>
+      </nav>
+    </header>
+    <h3>Agenda:</h3>
+    <ol>
+      <li>Review <strong>unfinished</strong> business</li>
+      <li>Discuss new business</li>
+      <li>Brainstorm</li>
+      <li>Create a timeline</li>
+      <li>Address miscellaneous comments, questions, and concerns</li>
+    </ol>
+
+    <section id="topics">
+      <h3><i>Unfinished</i> Business:</h3>
+      <ul>
+        <li>Review market research findings</li>
+        <li>Discuss budget allocation</li>
+      </ul>
+
+      <h3>New <em>Business</em>:</h3>
+      <ul>
+        <li>Decide on tech stack</li>
+        <li>Discuss potential partnerships</li>
+        <li>Define target audience</li>
+      </ul>
+
+      <h3>Miscellaneous Comments / Questions / Concerns:</h3>
+      <ul>
+        <li>What is the point of this assignment?</li>
+        <li>What is the due date?</li>
+      </ul>
+    </section>
+    <br />
+    <div>
+      <section id="media">
+        <h3>Diagrams:</h3>
+        <img src="4-91.png" alt="Diagram 1" width="300" />
+
+        <h3>Audio Recording:</h3>
+        <audio controls>
+          <source src="EDM_BACKGROUND.mp3" />
+        </audio>
+
+        <h3>Video Recording:</h3>
+        <video width="320" height="240" controls>
+          <source src="aaa.mp4" />
+        </video>
+      </section>
+    </div>
+    <span>
+      <h3>Feedback Form</h3>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="birthdate">Birthdate:</label>
+          <input type="date" id="birthdate" name="birthdate" /><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Feedback</legend>
+          <label for="comments">Comments:</label><br />
+          <textarea id="comments" name="comments" rows="4" cols="50"></textarea
+          ><br /><br />
+
+          <label for="department">Department:</label>
+          <select id="department" name="department">
+            <option value="engineering">Engineering</option>
+            <option value="design">Design</option>
+            <option value="marketing">Marketing</option>
+            <option value="sales">Sales</option></select
+          ><br /><br />
+
+          <label for="priority">Priority:</label>
+          <input list="priorityList" id="priority" name="priority" />
+          <datalist id="priorityList">
+            <option value="Low"></option>
+            <option value="Medium"></option>
+            <option value="High"></option></datalist
+          ><br /><br />
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form></span
+    >
+
+    <footer>
+      Created by Hanson Wang
+      <a href="https://www.google.com/">What?</a>
+      <details>
+        <summary>Click to expand</summary>
+        <p>I am good at coding.</p>
+      </details>
+    </footer>
+  </body>
+</html>
