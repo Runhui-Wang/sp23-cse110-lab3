@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://runhui-wang.github.io/Lab2_Starter/
+https://runhui-wang.github.io/sp23-cse110-lab3/
