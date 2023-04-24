@@ -1,0 +1,176 @@
+
+/* Apply colors to your HTML elements */
+body {
+  background-color: #f5f5f5;
+  font-family: 'BioRhyme', serif;
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  min-width: 150px;
+}
+
+header {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Configure the containers that holds your HTML content */
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  height: 200px;
+  width: 300px;
+}
+
+/* Borders around HTML elements */
+section {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding : 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+/* Style your text */
+a {
+  color: #ed0d0d;
+  text-decoration: none;
+  position: relative;
+  margin: auto;
+}
+a.active {
+  color: hsl(20, 20, 20);
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Element positioning on the page */
+nav {
+  float: right;
+}
+
+footer {
+  background-color: #4d4d4d;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+
+/* ID Selector (#id) */
+#topics {
+  margin-top: 0.5in;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+
+/* Universal Selector (*) */
+* {
+  box-sizing: border-box;
+}
+
+#media{
+  display:grid;
+  grid-gap:0.2cm;
+  grid-template:100px auto / 1fr 1fr 1fr;
+  grid-auto-flow: row;
+
+}
+/* Element Selector (element) */
+nav a {
+  margin-left: 1vh;
+}
+
+/* Attribute Selector (e.g. [attribute=foo]) */
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Pseudo-class Selector (e.g. p:hover) */
+button:hover {
+  background-color: #4d4d4d;
+  color: white;
+}
+
+/* Selector List (element, element) */
+h2, h3 {
+  font-family: Arial, sans-serif;
+  position: static;
+}
+
+/* Combinators */
+/* Descendant Combinator (element element) */
+.container ul {
+  margin-top: 20px;
+}
+
+/* Child Combinator (element > element) */
+form > fieldset {
+  margin-bottom: 20px;
+}
+
+/* General Sibling Combinator (element ~ element) */
+img ~ h3 {
+  margin-top: 20px;
+}
+
+/* Adjacent Sibling Combinator (element + element) */
+h2 + h3 {
+  margin-top: 20px;
+}
+
+/* Combining Two Selectors (element.class) */
+body.FeedbackForm {
+  display: block;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+  font-size: 4.5rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+  font-size: 2.5rem;
+}
+}
